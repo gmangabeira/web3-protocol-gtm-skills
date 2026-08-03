@@ -25,7 +25,7 @@ Each skill produces a structured, scored output with ✅/⚠/❌ status markers,
 **Claude Code** (personal skills, available in every project):
 
 ```bash
-git clone https://github.com/gogrowth-co/web3-protocol-gtm-skills.git
+git clone https://github.com/gmangabeira/web3-protocol-gtm-skills.git
 cp -r web3-protocol-gtm-skills/narrative-diagnostic \
       web3-protocol-gtm-skills/distribution-competitive-scan \
       web3-protocol-gtm-skills/post-tge-growth-system \
