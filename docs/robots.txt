@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gmangabeira.github.io/web3-protocol-gtm-skills/sitemap.xml

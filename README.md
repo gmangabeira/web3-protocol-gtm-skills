@@ -2,6 +2,8 @@
 
 # web3-protocol-gtm-skills
 
+**Docs:** https://gmangabeira.github.io/web3-protocol-gtm-skills/
+
 ![License](https://img.shields.io/badge/license-MIT-blue) ![Skills](https://img.shields.io/badge/skills-3-1FB6FF) ![Platform](https://img.shields.io/badge/platform-Claude-FFB800) ![Scope](https://img.shields.io/badge/scope-Web3%20GTM-0A2540)
 
 **Three Claude AI skills that run the same Web3 GTM diagnostic I apply in paid client engagements, on your own protocol, free.**

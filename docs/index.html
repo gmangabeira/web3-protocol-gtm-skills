@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Web3 Protocol GTM Skills: 3 Claude skills for a go-to-market diagnostic</title>
+<meta name="description" content="Three open-source Claude skills that run a Web3 go-to-market diagnostic on your own protocol: narrative, distribution against competitors, and the post-TGE growth system.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Gabriel Mangabeira">
+<link rel="canonical" href="https://gmangabeira.github.io/web3-protocol-gtm-skills/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Web3 Protocol GTM Skills: 3 Claude skills for a go-to-market diagnostic">
+<meta property="og:description" content="Three open-source Claude skills that run a Web3 go-to-market diagnostic on your own protocol: narrative, distribution against competitors, and the post-TGE growth system.">
+<meta property="og:url" content="https://gmangabeira.github.io/web3-protocol-gtm-skills/">
+<meta property="og:site_name" content="web3-protocol-gtm-skills docs">
+<meta property="og:image" content="https://raw.githubusercontent.com/gmangabeira/web3-protocol-gtm-skills/main/assets/hero.png">
+<meta property="og:image:alt" content="web3-protocol-gtm-skills cover">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Web3 Protocol GTM Skills: 3 Claude skills for a go-to-market diagnostic">
+<meta name="twitter:description" content="Three open-source Claude skills that run a Web3 go-to-market diagnostic on your own protocol: narrative, distribution against competitors, and the post-TGE growth system.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/gmangabeira/web3-protocol-gtm-skills/main/assets/hero.png">
+<meta name="theme-color" content="#0A2540">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareSourceCode", "name": "web3-protocol-gtm-skills", "description": "Three open-source Claude skills that run a Web3 go-to-market diagnostic on your own protocol: narrative, distribution against competitors, and the post-TGE growth system.", "url": "https://gmangabeira.github.io/web3-protocol-gtm-skills/", "codeRepository": "https://github.com/gmangabeira/web3-protocol-gtm-skills", "license": "https://opensource.org/licenses/MIT", "keywords": ["claude skills", "web3", "go-to-market", "gtm", "narrative", "distribution", "post-tge", "growth"], "author": {"@type": "Person", "name": "Gabriel Mangabeira", "url": "https://mangabeira.net", "sameAs": ["https://linkedin.com/in/mangabeira", "https://github.com/gmangabeira"]}}</script>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="./">web3-protocol-gtm-skills<span>.</span></a>
+    <nav aria-label="Sections"><ul><li><a href="#how">How it works</a></li><li><a href="#skills">Skills</a></li><li><a href="#first">Which first</a></li><li><a href="#install">Install</a></li></ul></nav>
+    <a class="gh" href="https://github.com/gmangabeira/web3-protocol-gtm-skills">View on GitHub</a>
+  </div>
+</header>
+<main>
+
+<section class="hero" style="border-top:0">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Claude skills, plain markdown, MIT</span>
+      <h1>Web3 Protocol GTM Skills</h1>
+      <p class="lede">Three Claude skills that run the Web3 go-to-market diagnostic I use in client work, adapted for self-serve protocols. <strong>Evidence-backed findings, not generic advice.</strong></p>
+      <div class="btns">
+        <a class="btn primary" href="https://github.com/gmangabeira/web3-protocol-gtm-skills"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg> View on GitHub</a>
+        <a class="btn" href="#install">Install</a>
+        <a class="btn" href="#skills">The three skills</a>
+      </div>
+      <div class="badges"><span class="badge g">3 skills</span><span class="badge">Claude Code</span><span class="badge">claude.ai and API</span><span class="badge">No dependencies</span><span class="badge g">MIT License</span></div>
+    </div>
+    <div class="hero-card"><img src="https://raw.githubusercontent.com/gmangabeira/web3-protocol-gtm-skills/main/assets/hero.png" alt="web3-protocol-gtm-skills cover" width="1280" height="640"></div>
+  </div>
+</section>
+
+<section id="problem">
+  <div class="wrap grid g2" style="align-items:center;gap:40px">
+    <blockquote class="quote">Most Web3 protocols don't have a marketing problem. They have a diagnosis problem.</blockquote>
+    <div>
+      <p class="kicker">Why this exists</p>
+      <p>Channels exist, numbers are moving, and nobody can say which specific thing is holding growth back. These skills walk Claude through a structured diagnostic, narrative, distribution and the post-launch growth system, and force evidence-backed findings.</p>
+      <p class="note">The method is the self-serve version of the 6-pillar framework behind my <a href="https://mangabeira.net/services/web3-growth-audit">Web3 growth audit</a>. Each skill names which pillars it covers.</p>
+    </div>
+  </div>
+</section>
+
+<section id="how" class="alt">
+  <div class="wrap">
+    <p class="kicker">How it works</p>
+    <h2>Inputs in, scored findings out</h2>
+    <p class="sub">Each SKILL.md tells Claude exactly what inputs to collect, how to score what it finds, and what output format to produce. Missing surfaces are findings, not blockers.</p>
+    <div class="diagram"><svg class="wide" viewBox="0 0 970 300" role="img" aria-label="How the skills work: your protocol inputs go to Claude with the SKILL.md, which produces a scored output with status markers, severity flags and quoted evidence" xmlns="http://www.w3.org/2000/svg" font-family="Montserrat, system-ui, sans-serif"><title>How the skills work: your protocol inputs go to Claude with the SKILL.md, which produces a scored output with status markers, severity flags and quoted evidence</title><defs><marker id="gw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8B9BAD"/></marker><marker id="gwg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FFB800"/></marker></defs><rect x="0" y="40" width="250" height="230" rx="12" fill="#0D3558" stroke="rgba(139,155,173,.45)" stroke-width="1.2"/><text x="125.0" y="160.0" text-anchor="middle" font-size="15" font-weight="700" fill="#F7FAFC"></text><text x="125" y="72" text-anchor="middle" font-size="15" font-weight="700" fill="#F7FAFC">Your inputs</text><rect x="18" y="90" width="214" height="26" rx="7" fill="rgba(31,182,255,.10)"/><text x="125" y="107" text-anchor="middle" font-size="12" font-weight="500" fill="#BDE8FF">Homepage + docs URL</text><rect x="18" y="124" width="214" height="26" rx="7" fill="rgba(31,182,255,.10)"/><text x="125" y="141" text-anchor="middle" font-size="12" font-weight="500" fill="#BDE8FF">X handle, bio, recent posts</text><rect x="18" y="158" width="214" height="26" rx="7" fill="rgba(31,182,255,.10)"/><text x="125" y="175" text-anchor="middle" font-size="12" font-weight="500" fill="#BDE8FF">2-3 direct competitors</text><rect x="18" y="192" width="214" height="26" rx="7" fill="rgba(31,182,255,.10)"/><text x="125" y="209" text-anchor="middle" font-size="12" font-weight="500" fill="#BDE8FF">Token, chain, launch date</text><rect x="18" y="226" width="214" height="26" rx="7" fill="rgba(31,182,255,.10)"/><text x="125" y="243" text-anchor="middle" font-size="12" font-weight="500" fill="#BDE8FF">Your own numbers (TVL, funnel)</text><polyline points="252,155 336,155" fill="none" stroke="#8B9BAD" stroke-width="1.6" marker-end="url(#gw)"/><rect x="340" y="70" width="280" height="170" rx="12" fill="#0D3558" stroke="#FFB800" stroke-width="2"/><text x="480.0" y="160.0" text-anchor="middle" font-size="15" font-weight="700" fill="#FFB800"></text><text x="480" y="108" text-anchor="middle" font-size="16" font-weight="700" fill="#FFB800">Claude + SKILL.md</text><text x="480" y="132" text-anchor="middle" font-size="12" font-weight="400" fill="#8B9BAD">collect inputs, then score</text><rect x="372" y="150" width="216" height="22" rx="6" fill="rgba(255,184,0,.10)"/><text x="480" y="165" text-anchor="middle" font-size="12" font-weight="500" fill="#FFD666">Step-by-step workflow</text><rect x="372" y="178" width="216" height="22" rx="6" fill="rgba(255,184,0,.10)"/><text x="480" y="193" text-anchor="middle" font-size="12" font-weight="500" fill="#FFD666">Fixed scoring rules</text><rect x="372" y="206" width="216" height="22" rx="6" fill="rgba(255,184,0,.10)"/><text x="480" y="221" text-anchor="middle" font-size="12" font-weight="500" fill="#FFD666">Fixed output format</text><polyline points="622,155 706,155" fill="none" stroke="#FFB800" stroke-width="1.6" marker-end="url(#gwg)"/><rect x="710" y="40" width="260" height="230" rx="12" fill="#0D3558" stroke="#1FB6FF" stroke-width="2"/><text x="840.0" y="160.0" text-anchor="middle" font-size="15" font-weight="700" fill="#F7FAFC"></text><text x="840" y="72" text-anchor="middle" font-size="15" font-weight="700" fill="#F7FAFC">Scored output</text><circle cx="742" cy="96" r="10" fill="#3DDC97"/><text x="742" y="100" text-anchor="middle" font-size="12" font-weight="800" fill="#0A2540">✓</text><text x="762" y="100" text-anchor="start" font-size="12" font-weight="500" fill="#D5DEE8">Pass</text><circle cx="742" cy="126" r="10" fill="#FFB800"/><text x="742" y="130" text-anchor="middle" font-size="12" font-weight="800" fill="#0A2540">!</text><text x="762" y="130" text-anchor="start" font-size="12" font-weight="500" fill="#D5DEE8">Partial</text><circle cx="742" cy="156" r="10" fill="#FF6B6B"/><text x="742" y="160" text-anchor="middle" font-size="12" font-weight="800" fill="#0A2540">✕</text><text x="762" y="160" text-anchor="start" font-size="12" font-weight="500" fill="#D5DEE8">Missing or failing</text><text x="728" y="206" text-anchor="start" font-size="12" font-weight="500" fill="#D5DEE8">Severity: Critical / High / Medium</text><text x="728" y="228" text-anchor="start" font-size="12" font-weight="500" fill="#D5DEE8">Quoted evidence for every claim</text><text x="728" y="250" text-anchor="start" font-size="12" font-weight="500" fill="#D5DEE8">No invented numbers</text></svg><svg class="tall" viewBox="0 0 340 500" role="img" aria-label="How the skills work, stacked view" xmlns="http://www.w3.org/2000/svg" font-family="Montserrat, system-ui, sans-serif"><title>How the skills work, stacked view</title><defs><marker id="gt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8B9BAD"/></marker><marker id="gtg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FFB800"/></marker></defs><rect x="20" y="10" width="300" height="150" rx="12" fill="#0D3558" stroke="rgba(139,155,173,.45)" stroke-width="1.2"/><text x="170.0" y="90.0" text-anchor="middle" font-size="15" font-weight="700" fill="#F7FAFC"></text><text x="170" y="38" text-anchor="middle" font-size="15" font-weight="700" fill="#F7FAFC">Your inputs</text><rect x="40" y="54" width="260" height="24" rx="7" fill="rgba(31,182,255,.10)"/><text x="170" y="70" text-anchor="middle" font-size="12" font-weight="500" fill="#BDE8FF">Homepage, docs, X handle</text><rect x="40" y="86" width="260" height="24" rx="7" fill="rgba(31,182,255,.10)"/><text x="170" y="102" text-anchor="middle" font-size="12" font-weight="500" fill="#BDE8FF">2-3 direct competitors</text><rect x="40" y="118" width="260" height="24" rx="7" fill="rgba(31,182,255,.10)"/><text x="170" y="134" text-anchor="middle" font-size="12" font-weight="500" fill="#BDE8FF">Token, chain, your numbers</text><polyline points="170,162 170,190" fill="none" stroke="#8B9BAD" stroke-width="1.6" marker-end="url(#gt)"/><rect x="20" y="194" width="300" height="92" rx="12" fill="#0D3558" stroke="#FFB800" stroke-width="2"/><text x="170.0" y="245.0" text-anchor="middle" font-size="15" font-weight="700" fill="#FFB800"></text><text x="170" y="228" text-anchor="middle" font-size="16" font-weight="700" fill="#FFB800">Claude + SKILL.md</text><text x="170" y="250" text-anchor="middle" font-size="12" font-weight="400" fill="#8B9BAD">workflow, scoring rules,</text><text x="170" y="266" text-anchor="middle" font-size="12" font-weight="400" fill="#8B9BAD">fixed output format</text><polyline points="170,288 170,316" fill="none" stroke="#FFB800" stroke-width="1.6" marker-end="url(#gtg)"/><rect x="20" y="320" width="300" height="170" rx="12" fill="#0D3558" stroke="#1FB6FF" stroke-width="2"/><text x="170.0" y="410.0" text-anchor="middle" font-size="15" font-weight="700" fill="#F7FAFC"></text><text x="170" y="348" text-anchor="middle" font-size="15" font-weight="700" fill="#F7FAFC">Scored output</text><circle cx="60" cy="374" r="10" fill="#3DDC97"/><text x="60" y="378" text-anchor="middle" font-size="12" font-weight="800" fill="#0A2540">✓</text><text x="80" y="378" text-anchor="start" font-size="12" font-weight="500" fill="#D5DEE8">Pass</text><circle cx="60" cy="402" r="10" fill="#FFB800"/><text x="60" y="406" text-anchor="middle" font-size="12" font-weight="800" fill="#0A2540">!</text><text x="80" y="406" text-anchor="start" font-size="12" font-weight="500" fill="#D5DEE8">Partial</text><circle cx="60" cy="430" r="10" fill="#FF6B6B"/><text x="60" y="434" text-anchor="middle" font-size="12" font-weight="800" fill="#0A2540">✕</text><text x="80" y="434" text-anchor="start" font-size="12" font-weight="500" fill="#D5DEE8">Missing or failing</text><text x="48" y="470" text-anchor="start" font-size="12" font-weight="500" fill="#D5DEE8">Severity flags + quoted evidence</text></svg></div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <p class="kicker">The kit</p>
+    <h2>Three skills, one diagnostic</h2>
+    <p class="sub">All three are shipped. Every claim gets a status marker, a severity flag and quoted evidence.</p>
+    <div class="grid g3"><div class="card"><div class="icon g"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div><h3><a href="https://github.com/gmangabeira/web3-protocol-gtm-skills/blob/main/narrative-diagnostic/SKILL.md" style="color:inherit">narrative-diagnostic</a></h3><p>Whether your positioning actually lands. Produces a scored narrative scorecard with severity flags and concrete rewrites.</p><p class="codehead" style="margin-top:16px">Workflow</p><ol style="margin:0;padding-left:20px;color:#C9D4E0;font-size:14.5px"><li>One-sentence test on the homepage hero</li><li>ICP clarity</li><li>Differentiation: could a competitor paste this claim?</li><li>Proof and evidence</li><li>Message consistency across site, X bio, pinned post, docs</li><li>Jargon test against the ICP</li></ol></div><div class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.9 19.1a10 10 0 0 1 0-14.2M7.8 16.2a6 6 0 0 1 0-8.4M16.2 7.8a6 6 0 0 1 0 8.4M19.1 4.9a10 10 0 0 1 0 14.2"/><circle cx="12" cy="12" r="2"/></svg></div><h3><a href="https://github.com/gmangabeira/web3-protocol-gtm-skills/blob/main/distribution-competitive-scan/SKILL.md" style="color:inherit">distribution-competitive-scan</a></h3><p>How your channels stack up against 2-3 direct competitors. Produces a channel comparison table, an engagement-rate benchmark and three prioritized moves.</p><p class="codehead" style="margin-top:16px">Workflow</p><ol style="margin:0;padding-left:20px;color:#C9D4E0;font-size:14.5px"><li>Channel inventory</li><li>Engagement rate benchmark (last 20 X posts)</li><li>Content mix read</li><li>Owned audience check</li><li>System check: connected system or islands</li></ol></div><div class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 17-8.5-8.5-5 5L2 7"/><path d="M16 17h6v-6"/></svg></div><h3><a href="https://github.com/gmangabeira/web3-protocol-gtm-skills/blob/main/post-tge-growth-system/SKILL.md" style="color:inherit">post-tge-growth-system</a></h3><p>Why growth stalled after token launch. Separates real growth failure from market beta, maps funnel leaks, and produces a 90-day fix list.</p><p class="codehead" style="margin-top:16px">Workflow</p><ol style="margin:0;padding-left:20px;color:#C9D4E0;font-size:14.5px"><li>Beta check: token vs BTC, TVL vs sector</li><li>Funnel walk: discovery to repeat transaction</li><li>Activation loop inventory</li><li>Attribution stack check</li><li>Owned audience check</li><li>Synthesis: exactly three ordered fixes</li></ol></div></div>
+  </div>
+</section>
+
+<section id="first" class="alt">
+  <div class="wrap">
+    <p class="kicker">Which skill first?</p>
+    <h2>Start from the symptom</h2>
+    <p class="sub">The post-TGE skill starts with a market-beta check, so you don't spend a quarter fixing marketing when the whole sector is down.</p>
+    <div class="diagram"><svg class="wide" viewBox="0 0 880 236" role="img" aria-label="Which skill first: weak conversion goes to narrative-diagnostic, a competitor out-growing you goes to distribution-competitive-scan, a bleeding chart after launch goes to post-tge-growth-system" xmlns="http://www.w3.org/2000/svg" font-family="Montserrat, system-ui, sans-serif"><title>Which skill first: weak conversion goes to narrative-diagnostic, a competitor out-growing you goes to distribution-competitive-scan, a bleeding chart after launch goes to post-tge-growth-system</title><defs><marker id="dw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8B9BAD"/></marker><marker id="dwg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FFB800"/></marker></defs><rect x="0" y="10" width="420" height="60" rx="12" fill="#0D3558" stroke="rgba(139,155,173,.45)" stroke-width="1.2"/><text x="210.0" y="45.0" text-anchor="middle" font-size="15" font-weight="700" fill="#F7FAFC">Traffic or followers, weak conversion</text><polyline points="424,40 536,40" fill="none" stroke="#FFB800" stroke-width="1.6" marker-end="url(#dwg)"/><rect x="540" y="10" width="340" height="60" rx="12" fill="#0D3558" stroke="#FFB800" stroke-width="2"/><text x="710.0" y="45.0" text-anchor="middle" font-size="15" font-weight="700" fill="#FFB800">narrative-diagnostic</text><rect x="0" y="88" width="420" height="60" rx="12" fill="#0D3558" stroke="rgba(139,155,173,.45)" stroke-width="1.2"/><text x="210.0" y="123.0" text-anchor="middle" font-size="15" font-weight="700" fill="#F7FAFC">A competitor is visibly out-growing you</text><polyline points="424,118 536,118" fill="none" stroke="#FFB800" stroke-width="1.6" marker-end="url(#dwg)"/><rect x="540" y="88" width="340" height="60" rx="12" fill="#0D3558" stroke="#FFB800" stroke-width="2"/><text x="710.0" y="123.0" text-anchor="middle" font-size="15" font-weight="700" fill="#FFB800">distribution-competitive-scan</text><rect x="0" y="166" width="420" height="60" rx="12" fill="#0D3558" stroke="rgba(139,155,173,.45)" stroke-width="1.2"/><text x="210.0" y="201.0" text-anchor="middle" font-size="15" font-weight="700" fill="#F7FAFC">Token is live and the chart is bleeding</text><polyline points="424,196 536,196" fill="none" stroke="#FFB800" stroke-width="1.6" marker-end="url(#dwg)"/><rect x="540" y="166" width="340" height="60" rx="12" fill="#0D3558" stroke="#FFB800" stroke-width="2"/><text x="710.0" y="201.0" text-anchor="middle" font-size="15" font-weight="700" fill="#FFB800">post-tge-growth-system</text></svg><svg class="tall" viewBox="0 0 340 492" role="img" aria-label="Which skill first, stacked view" xmlns="http://www.w3.org/2000/svg" font-family="Montserrat, system-ui, sans-serif"><title>Which skill first, stacked view</title><defs><marker id="dt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8B9BAD"/></marker><marker id="dtg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FFB800"/></marker></defs><rect x="20" y="10" width="300" height="56" rx="12" fill="#0D3558" stroke="rgba(139,155,173,.45)" stroke-width="1.2"/><text x="170.0" y="43.0" text-anchor="middle" font-size="15" font-weight="700" fill="#F7FAFC">Traffic, weak conversion</text><polyline points="170,68 170,94" fill="none" stroke="#FFB800" stroke-width="1.6" marker-end="url(#dtg)"/><rect x="20" y="98" width="300" height="50" rx="12" fill="#0D3558" stroke="#FFB800" stroke-width="2"/><text x="170.0" y="128.0" text-anchor="middle" font-size="15" font-weight="700" fill="#FFB800">narrative-diagnostic</text><rect x="20" y="182" width="300" height="56" rx="12" fill="#0D3558" stroke="rgba(139,155,173,.45)" stroke-width="1.2"/><text x="170.0" y="215.0" text-anchor="middle" font-size="15" font-weight="700" fill="#F7FAFC">A competitor out-grows you</text><polyline points="170,240 170,266" fill="none" stroke="#FFB800" stroke-width="1.6" marker-end="url(#dtg)"/><rect x="20" y="270" width="300" height="50" rx="12" fill="#0D3558" stroke="#FFB800" stroke-width="2"/><text x="170.0" y="300.0" text-anchor="middle" font-size="15" font-weight="700" fill="#FFB800">distribution-competitive-scan</text><rect x="20" y="354" width="300" height="56" rx="12" fill="#0D3558" stroke="rgba(139,155,173,.45)" stroke-width="1.2"/><text x="170.0" y="387.0" text-anchor="middle" font-size="15" font-weight="700" fill="#F7FAFC">Token live, chart bleeding</text><polyline points="170,412 170,438" fill="none" stroke="#FFB800" stroke-width="1.6" marker-end="url(#dtg)"/><rect x="20" y="442" width="300" height="50" rx="12" fill="#0D3558" stroke="#FFB800" stroke-width="2"/><text x="170.0" y="472.0" text-anchor="middle" font-size="15" font-weight="700" fill="#FFB800">post-tge-growth-system</text></svg></div>
+  </div>
+</section>
+
+<section id="install">
+  <div class="wrap grid g2" style="gap:32px">
+    <div style="min-width:0">
+      <p class="kicker">Install</p>
+      <h2>Claude Code</h2>
+      <p class="sub" style="margin-bottom:20px">Personal skills, available in every project. For a single project, copy the three folders into that repo's <code>.claude/skills/</code> directory instead.</p>
+      <p class="codehead">bash</p><pre><code>git clone https://github.com/gmangabeira/web3-protocol-gtm-skills.git
+cp -r web3-protocol-gtm-skills/narrative-diagnostic \
+      web3-protocol-gtm-skills/distribution-competitive-scan \
+      web3-protocol-gtm-skills/post-tge-growth-system \
+      ~/.claude/skills/</code></pre>
+      <div class="card"><h3>Any other Claude interface</h3><p>On claude.ai or the API: open the skill's <code>SKILL.md</code>, paste its contents into your conversation, and add your protocol's details. The skills are plain markdown: no dependencies, no build step.</p></div>
+    </div>
+    <div style="min-width:0">
+      <p class="kicker">Use</p>
+      <h2>Just ask</h2>
+      <p class="sub" style="margin-bottom:20px">Once installed, just ask. Each skill tells Claude what inputs to collect.</p>
+      <p class="codehead">prompts</p><pre><code>Run the narrative diagnostic on [protocol]: homepage is [url], X is [@handle]
+
+Compare our distribution against [competitor A] and [competitor B]
+
+We launched [token] 2 months ago and TVL is bleeding. Run the post-TGE growth system audit.</code></pre>
+    </div>
+  </div>
+</section>
+
+<section id="limits" class="alt">
+  <div class="wrap grid g2" style="gap:32px;align-items:start">
+    <div>
+      <p class="kicker">What this kit can't see</p>
+      <h2>Public surfaces and the numbers you bring</h2>
+      <p>The skills run on public surfaces and the data you provide. They do not include:</p>
+      <ul class="pill-list"><li>Onchain cohort queries (Dune)</li><li>Scraped competitor social intelligence</li><li>SEO and AEO analysis</li><li>A prioritized 90-day roadmap</li></ul>
+    </div>
+    <div class="card"><div class="icon g"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Rules every skill follows</h3><ul><li>No invented numbers</li><li>Every severity flag needs evidence, or an explicit "no data exists", which is itself the finding</li><li>No "post more consistently" style advice</li></ul><p style="margin-top:12px">MIT licensed: use it, fork it, run it on client work. Attribution appreciated, not required.</p></div>
+  </div>
+</section>
+
+</main>
+
+<aside class="author" aria-label="About the author">
+  <div class="wrap">
+    <div>
+      <p class="kicker">Author</p>
+      <h3>Gabriel Mangabeira</h3>
+      <p>Two-time Olympian turned growth marketer for AI and Web3. I built this project and keep it open source under the MIT License.</p>
+    </div>
+    <div class="links">
+      <a class="btn" href="https://mangabeira.net" rel="author">mangabeira.net</a>
+      <a class="btn" href="https://linkedin.com/in/mangabeira" rel="me">LinkedIn</a>
+      <a class="btn" href="https://github.com/gmangabeira" rel="me">GitHub</a>
+    </div>
+  </div>
+</aside>
+
+<footer><div class="wrap"><span>MIT License. Source and issues on <a href="https://github.com/gmangabeira/web3-protocol-gtm-skills">GitHub</a>.</span><span>Docs for the open-source project web3-protocol-gtm-skills.</span></div></footer>
+</body>
+</html>
